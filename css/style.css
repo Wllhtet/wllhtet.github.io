@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="Chap1.html">
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('../css/images/BaganImage.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(238, 234, 226);
+  text-align: center;
+  padding: 20px 0; 
+}
+
+.s_name {
+  margin-bottom: 0;
+  line-height: 150px;
+  letter-spacing: 3px;
+  font-size: 7em;
+}
+
+.s_tag {
+  margin-top: -25px;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
+
+.navbar ul{
+  list-style: none;
+  padding :0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color:rgb(143, 143, 143);
+}
+ .navbar li{
+  float: left;
+}
+
+ul li a {
+  display: block;
+  padding: 20px
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  padding-left: 0;
+}
+ul li  a:hover {
+  background-color: #4a6ebc;
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
