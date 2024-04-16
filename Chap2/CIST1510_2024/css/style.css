@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url('../css/images/BaganImage.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px 0; 
+}
+
+.s_name {
+  margin-bottom: 0;
+  line-height: 150px;
+  letter-spacing: 3px;
+  font-size: 7em;
+}
+
+.s_tag {
+  margin-top: -25px;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  
+}
+
+.navbar ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font_size: 20px;
+}
+
+.navbar ul li a:hover {
+  color:aqua;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: none;
+}
+
+.dropdown ul {
+  display: block;
+}
+
