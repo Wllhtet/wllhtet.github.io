@@ -1,70 +1,45 @@
-<link rel="stylesheet" href="Chap1.html">
-
-* {
-  margin: 0;
-  padding: 0;
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #d7440f;
 }
-
-header {
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+  background-color: #4e4e4e; /* Dark */
   background-image: url('../css/images/BaganImage.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(238, 234, 226);
-  text-align: center;
-  padding: 20px 0; 
+  color: #ffffff;
 }
-
-.s_name {
+.bg-2 { 
+  background-color: #573b07; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: #383838; /* White */
+  color: #ffffff;
+}
+.bg-4 { 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #ffffff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
   margin-bottom: 0;
-  line-height: 150px;
-  letter-spacing: 3px;
-  font-size: 7em;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #4e4e4e;
+  color: #ffff;
 }
-
-.s_tag {
-  margin-top: -25px;
-  letter-spacing: 2px;
-  font-size: 1.5em;
+.navbar-brand span{color: #da2a2a;}
+.navbar-brand span{color: #16e8f7; font-size: larger; font-weight: 500;}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
 }
-
-.navbar ul{
-  list-style: none;
-  padding :0px;
-  margin: 0px;
-  overflow: hidden;
-}
-
-.navbar a{
-  color:rgb(0, 0, 0);
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
-}
-.navbar a:hover{
-  background-color:rgb(143, 143, 143);
-}
- .navbar li{
-  float: left;
-}
-
-ul li a {
-  display: block;
-  padding: 20px
-}
-ul li ul.dropdown li {
-  display: block;
-}
-ul li ul.dropdown {
-  width: 100%;
-  position: absolute;
-  z-index: 999;
-  display: none;
-  padding-left: 0;
-}
-ul li  a:hover {
-  background-color: #4a6ebc;
-}
-ul li:hover ul.dropdown {
-  display: block;
-}
+footer .copyright{width: 50vw; text-align: center;}
