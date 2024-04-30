@@ -1,107 +1,80 @@
+<!--
+    Student Name: William Htet
+    File Name: index.html
+    Date: March 4, 2024
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Contact</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <style>
-
-body {
-          font: 20px Montserrat, sans-serif;
-          line-height: 1.8;
-          color: #ffffff;
-          background: #383838;
-        }
-        p {font-size: 16px;}
-        .margin {margin-bottom: 45px;}
-        
-        .container-fluid {
-          padding-top: 70px;
-          padding-bottom: 70px;
-        }
-        .navbar {
-          padding-top: 15px;
-          padding-bottom: 15px;
-          border: 0;
-          border-radius: 0;
-          margin-bottom: 0;
-          font-size: 12px;
-          letter-spacing: 5px;
-          background-color: #4e4e4e;
-        
-        }
-        .navbar-brand span{color: #da2a2a;}
-        .navbar-brand span{color: #16e8f7; font-size: larger; font-weight: 500;}
-        .navbar-nav  li a:hover {
-          color: #1abc9c !important;
-        }
-        footer .copyright{width: 100vw; text-align: center;}
-      
-        </style>
-      </head>
-      <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-default">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-              </button>
-              <a class="navbar-brand" href="#"><span>Willlam</span>Htet</a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Wild Rescues: Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="Image/png" sizes="32x32" href="Images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="Images/android-chrome-192.png">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="partnership.html">Partnership</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact Us</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="../index.html">HOME</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">CLASSES</a>
-        
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../Chap1/index.html">Chap1</a></li>
-                    <li><a class="dropdown-item" href="../Chap2/index.html">Chap2</a></li>
-                    <li><a class="dropdown-item" href="../Chap3/index.html">Chap3</a></li>
-                    <li><a class="dropdown-item" href="../Chap4/index.html">Chap4</a></li>
-                    <li><a class="dropdown-item" href="../Chap5/index.html">Chap5</a></li>
-                    <li><a class="dropdown-item" href="../Chap6/index.html">Chap6</a></li>
-                    <li><a class="dropdown-item" href="../Chap7/index.html">Chap7</a></li>
-                    <li><a class="dropdown-item" href="../Chap8/index.html">Chap8</a></li>
-                    <li><a class="dropdown-item" href="../Chap9/index.html">Chap9</a></li>
-                    <li><a class="dropdown-item" href="../Chap10/index.html">Chap10</a></li>
-                    <li><a class="dropdown-item" href="../Chap11/index.html">Chap11</a></li>
-                    <li><a class="dropdown-item" href="../Chap12/index.html">Chap12</a></li>
-                  </ul>
-                </li>
-        
-        
-        
-                <li><a href="../about.html">ABOUT</a></li>
-                <li><a href="../contact.html">CONTACT</a></li>
-                <li><a href="Ch2Lab2.html">Lab</a></li>
-              </ul>
-            </div>
-          </div>
+
+            <a class="nav-icon" onclick="hamburger()">
+                <div id="icon">&#9776;</div>
+            </a>
         </nav>
+
+        <nav class="tablet-desk">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a> </li>
+                <li><a href="./partnership.html">Partnership</a></li>
+                <li><a href="./gallery.html">Gallery</a> </li>
+                <li><a href="./faqs.html">FAQs</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+                <main>
+                    <div id="welcome"> 
+                        <figure>
+                            <img src="../images/Baby_hawk.jpg" alt="baby hawk image" class=" center"> 
+                            <figcaption class="glowtext">Make a Difference Today!</figcaption>
+                        </figure>
+                        <p>Welcome to Wild Rescues. Our mission is to rescue, rehabilitate, and release wildlife back into their natural environment. 
+                        We are a nonprofit organization dedicated to helping injured wildlife.
+                        </p>
+                        <p>Our staff provides around-the-clock care for wildlife in need. We also provide long-term care for wildlife that cannot be released 
+                        back into their natural environment.
+                        </p>
+                        <p>Will you partner with us? We need caring volunteers to help care for our animals. You can also donate, become a member, or become a
+                        sponsor. Contact us today.
+                        </p> 
+                    </div> 
+                    <div id="latest"> 
+                        <h2>Our latest Rescue: Baby Raccoons</h2> 
+                            <div class="round">
+                                <img src="./images/baby-raccoons.jpg" alt="baby raccoons" class="round"></a> 
+                            </div>  
+                        <p>Meet our latest rescues, Fizz, Bandit, and Mohawk. These three little guys were found abandoned near a home.</p>
+                    </div>
+                </main> 
+            <!-- <script src="scripts/script.js"></script> -->
+            <footer>
+                <p>&copy; Copyright 2024. All Rights Reserved.</p> 
+                <p><a href="mailto:contact@wildrescues.net">wildrescues@wildrescues.net</p>
+            </footer>
     
-    <main>
-        <h1> Chapter 8</h1>
-        <h2>Creating <b>Tables</b> and <b>Forms</b></h2>
-        <ul>
-            <li> Create the Classes page and its Table</li>
-            <li> Style the Table for Tablet and Desktop Viewports</li>
-            <li> Create a form on the Contact Us page</li>
-            <li> Style the form for mobile, tablet, and desktop viewports</li>
-            
-        </ul>
-      <img src="./Images/Ch8Pq.png" class="myImage"/>
-    </main>
-    
-    
-</body>
+</body> 
 </html>
